@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  background-color: #fdfcdc;
+}
+h1 {
+  color: #0081a7;
+  font-size: xx-large;
+  display: inline-block;
+  background-color: #fed9b7;
+  border: 2px solid black;
+  padding: 1vw;
+  box-shadow: 0.5vw 0.5vw black;
+}
+h3 {
+  font-size: x-large;
+}
+.game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vw;
+}
+.format {
+  height: 8vw;
+  width: 8vw;
+  border-radius: 5vw;
+  margin: 0 2vw 0 2vw;
+  background-color: white;
+}
+#rock {
+  height: 4.5vw;
+}
+#paper {
+  height: 4.5vw;
+}
+#scissor {
+  height: 4.5vw;
+  transform: rotate(-90deg);
+}
+.score-name {
+  margin-top: 3vw;
+}
+.score-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  font-weight: bolder;
+}
+#reset {
+  color: #0081a7;
+  font-size: x-large;
+  font-weight: 500;
+  background-color: #fed9b7;
+  border: 2px solid black;
+  padding: 0.5vw;
+  box-shadow: 0.25vw 0.25vw black;
+  margin-top: 5vw;
+}
