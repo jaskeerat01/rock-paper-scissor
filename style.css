@@ -54,6 +54,22 @@ h3 {
   background-color: #fed9b7;
   border: 2px solid black;
   padding: 0.5vw;
-  box-shadow: 0.25vw 0.25vw black;
+  box-shadow: 0.5vw 0.5vw black;
   margin-top: 5vw;
+}
+@media screen and (max-width: 748px) {
+  .format {
+    height: 8vh;
+    width: 8vh;
+    border-radius: 8vh;
+  }
+  #rock {
+    height: 5vh;
+  }
+  #paper {
+    height: 5vh;
+  }
+  #scissor {
+    height: 5vh;
+  }
 }
